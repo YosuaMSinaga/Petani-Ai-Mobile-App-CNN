@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.png" alt="Logo Petani AI" width="180"/>
+<img src="images/logo.png" alt="Logo Petani AI" width="160"/>
 
 # Petani AI
 
@@ -23,7 +23,7 @@ Petani AI merupakan aplikasi mobile yang dikembangkan sebagai implementasi metod
 Halaman utama aplikasi yang menyediakan akses ke fitur **Deteksi Penyakit Tanaman** dan **Analisis Kondisi Lahan**.
 
 <p align="center">
-  <img src="images/beranda.png" alt="Halaman Beranda" width="220">
+  <img src="images/beranda.png" alt="Halaman Beranda" width="180">
 </p>
 
 ---
@@ -33,9 +33,9 @@ Halaman utama aplikasi yang menyediakan akses ke fitur **Deteksi Penyakit Tanama
 Pengguna dapat mengambil gambar melalui kamera atau memilih gambar dari galeri. Citra daun yang dipilih kemudian diproses menggunakan model **Convolutional Neural Network (CNN)** dengan arsitektur **ResNet-50** untuk mengidentifikasi jenis penyakit tanaman. Setelah proses deteksi selesai, aplikasi menampilkan hasil klasifikasi penyakit tanaman beserta nilai **confidence** sebagai tingkat keyakinan model terhadap hasil prediksi.
 
 <p align="center">
-  <img src="images/deteksi.png" alt="Halaman Deteksi Penyakit" width="220">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/hasil.png" alt="Hasil Deteksi Penyakit" width="220">
+  <img src="images/deteksi.png" alt="Halaman Deteksi Penyakit" width="180">
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/hasil.png" alt="Hasil Deteksi Penyakit" width="180">
 </p>
 
 ---
@@ -45,26 +45,10 @@ Pengguna dapat mengambil gambar melalui kamera atau memilih gambar dari galeri. 
 Pengguna mengisi parameter yang diperlukan untuk melakukan analisis kondisi lahan. Selanjutnya, sistem memproses data yang diberikan dan menampilkan hasil analisis kondisi lahan.
 
 <p align="center">
-  <img src="images/lahan.png" alt="Analisis Kondisi Lahan" width="220">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/hasil_lahan.png" alt="Hasil Analisis Kondisi Lahan" width="220">
+  <img src="images/lahan.png" alt="Analisis Kondisi Lahan" width="180">
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/hasil_lahan.png" alt="Hasil Analisis Kondisi Lahan" width="180">
 </p>
-
----
-
-## Informasi Penelitian
-
-**Judul Penelitian**
-
-**Implementasi Metode Convolutional Neural Network (CNN) dengan Arsitektur ResNet-50 pada Aplikasi Mobile untuk Deteksi Penyakit Tanaman Pertanian dan Analisis Kondisi Lahan**
-
-**Penulis**
-
-Yosua Marcelinus Sinaga
-
-Program Studi Teknologi Informasi
-
-Universitas Sumatera Utara
 
 ---
 
