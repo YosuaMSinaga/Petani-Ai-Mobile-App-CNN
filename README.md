@@ -12,7 +12,7 @@
 
 ## Tentang Aplikasi
 
-Petani AI merupakan aplikasi mobile yang dikembangkan sebagai implementasi metode **Convolutional Neural Network (CNN)** dengan **arsitektur ResNet-50** untuk mendeteksi penyakit tanaman pertanian berdasarkan citra daun serta menganalisis kondisi lahan. Aplikasi ini bertujuan membantu pengguna memperoleh informasi secara cepat dan akurat sebagai pendukung dalam pengambilan keputusan pada sektor pertanian.
+Petani AI merupakan aplikasi mobile yang dikembangkan sebagai implementasi metode **Convolutional Neural Network (CNN)** dengan arsitektur **ResNet-50** untuk mendeteksi penyakit tanaman pertanian berdasarkan citra daun serta menganalisis kondisi lahan. Aplikasi ini bertujuan membantu pengguna memperoleh informasi secara cepat dan akurat sebagai pendukung pengambilan keputusan dalam pengelolaan tanaman.
 
 ---
 
@@ -20,41 +20,35 @@ Petani AI merupakan aplikasi mobile yang dikembangkan sebagai implementasi metod
 
 ### 1. Halaman Beranda
 
-Halaman utama aplikasi yang menyediakan akses ke fitur deteksi penyakit tanaman dan analisis kondisi lahan.
+Halaman utama aplikasi yang menyediakan akses ke fitur **Deteksi Penyakit Tanaman** dan **Analisis Kondisi Lahan**.
 
-![Halaman Beranda](images/beranda.png)
-
----
-
-### 2. Halaman Deteksi Penyakit Tanaman
-
-Pengguna dapat mengambil gambar melalui kamera atau memilih gambar dari galeri untuk dilakukan proses deteksi.
-
-![Halaman Deteksi](images/deteksi.png)
+<p align="center">
+  <img src="images/beranda.png" alt="Halaman Beranda" width="300"/>
+</p>
 
 ---
 
-### 3. Proses Prediksi Menggunakan Model CNN ResNet-50
+### 2. Deteksi Penyakit Tanaman
 
-Citra daun yang dipilih dikirim ke backend untuk diproses menggunakan model **Convolutional Neural Network (CNN)** dengan arsitektur **ResNet-50** hingga menghasilkan prediksi penyakit tanaman.
+Pengguna dapat mengambil gambar melalui kamera atau memilih gambar dari galeri. Citra daun yang dipilih kemudian diproses menggunakan model **Convolutional Neural Network (CNN)** dengan arsitektur **ResNet-50** untuk mengidentifikasi jenis penyakit tanaman. Setelah proses deteksi selesai, aplikasi menampilkan hasil klasifikasi penyakit tanaman beserta nilai **confidence** sebagai tingkat keyakinan model terhadap hasil prediksi.
 
-![Proses Prediksi](images/proses.png)
-
----
-
-### 4. Hasil Deteksi Penyakit Tanaman
-
-Aplikasi menampilkan hasil klasifikasi penyakit tanaman beserta nilai *confidence* sebagai tingkat keyakinan model terhadap hasil prediksi.
-
-![Hasil Deteksi](images/hasil.png)
+<p align="center">
+  <img src="images/deteksi.png" alt="Halaman Deteksi Penyakit" width="280"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/hasil.png" alt="Hasil Deteksi Penyakit" width="280"/>
+</p>
 
 ---
 
-### 5. Halaman Analisis Kondisi Lahan
+### 3. Analisis Kondisi Lahan
 
-Pengguna mengisi parameter kondisi lahan, kemudian sistem melakukan analisis dan menampilkan hasil sesuai model yang telah dikembangkan.
+Pengguna mengisi parameter yang diperlukan untuk melakukan analisis kondisi lahan. Selanjutnya, sistem memproses data yang diberikan dan menampilkan hasil analisis kondisi lahan.
 
-![Analisis Kondisi Lahan](images/lahan.png)
+<p align="center">
+  <img src="images/lahan.png" alt="Halaman Analisis Kondisi Lahan" width="280"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/hasil_lahan.png" alt="Hasil Analisis Kondisi Lahan" width="280"/>
+</p>
 
 ---
 
@@ -78,6 +72,6 @@ Universitas Sumatera Utara
 
 Repository ini dibuat sebagai dokumentasi kode program penelitian tugas akhir.
 
-Seluruh kode program dan dokumentasi pada repository ini merupakan hak cipta penulis.
+Seluruh kode program dan dokumentasi yang terdapat pada repository ini merupakan hak cipta penulis dan digunakan untuk keperluan akademik.
 
 © 2026 Yosua Marcelinus Sinaga
