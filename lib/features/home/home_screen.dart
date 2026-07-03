@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
       }
       
       Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.low);
-      const apiKey = "71ac9a8047592646bb7e71db67f941b9";
+      const apiKey = "API_KEY_KAMU";
       final url = Uri.parse(
           "https://api.openweathermap.org/data/2.5/weather?lat=${position.latitude}&lon=${position.longitude}&units=metric&appid=$apiKey&lang=id");
       
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> _fetchNews() async {
-    const apiKey = "b96e85babd4843018ce9c686f53733ac";
+    const apiKey = "API_KEY_KAMU";
     final url = Uri.parse("https://newsapi.org/v2/everything?q=pertanian+Indonesia&language=id&sortBy=publishedAt&pageSize=10&apiKey=$apiKey");
 
     try {
